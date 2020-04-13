@@ -178,7 +178,7 @@ description = "Braintree Python Library"
 name = "braintree"
 optional = false
 python-versions = "*"
-version = "3.49.0"
+version = "4.0.0"
 
 [package.dependencies]
 requests = ">=0.11.1,<3.0"
@@ -2180,7 +2180,7 @@ idna = ">=2.0"
 multidict = ">=4.0"
 
 [metadata]
-content-hash = "8d98a9bc230305ff4c811665fd82ad3fe2c56ecbd31c6a52f00a9569a9e199b0"
+content-hash = "b0261532c1919d89f00c5a8e3520428806558d0f86e5375607e520afdd941b91"
 python-versions = "~3.8"
 
 [metadata.files]
@@ -2246,8 +2246,8 @@ botocore = [
     {file = "botocore-1.15.36.tar.gz", hash = "sha256:5fc5e8629b5375d591a47d05baaff6ccdf5c3b617aad1e14286be458092c9e53"},
 ]
 braintree = [
-    {file = "braintree-3.49.0-py2.py3-none-any.whl", hash = "sha256:7cdd715a5a61339e4e5dcb5611cf80512d5fdb0e4da69307a64141d3597357f7"},
-    {file = "braintree-3.49.0.tar.gz", hash = "sha256:0c95dbe0b497fd2eafaa08b6282f2b1d547cba3a432f8101424bd06c333348b5"},
+    {file = "braintree-4.0.0-py2.py3-none-any.whl", hash = "sha256:25e4b3afc396724ea35afbd6f58e9a3bbe837a97e1ff3cfaa70c3a7eb8b542a5"},
+    {file = "braintree-4.0.0.tar.gz", hash = "sha256:b06a7989747ae7f36eceaae3499cab98f0e03d751681e2aa65af76405e041fd5"},
 ]
 cachetools = [
     {file = "cachetools-4.0.0-py3-none-any.whl", hash = "sha256:b304586d357c43221856be51d73387f93e2a961598a9b6b6670664746f3b6c6c"},
@@ -2388,6 +2388,7 @@ django-debug-toolbar = [
     {file = "django_debug_toolbar-2.2-py3-none-any.whl", hash = "sha256:ff94725e7aae74b133d0599b9bf89bd4eb8f5d2c964106e61d11750228c8774c"},
 ]
 django-debug-toolbar-request-history = [
+    {file = "django-debug-toolbar-request-history-0.1.1.tar.gz", hash = "sha256:b4e53f1da523d6fe7d2a9cb1b0cf4ce7c83c8a02fad56555ec041911371e62cd"},
     {file = "django_debug_toolbar_request_history-0.1.1-py2.py3-none-any.whl", hash = "sha256:79013b50ba59d93d998b6f168ca4325eb5be3a9b859d48fb14aae80819f3a734"},
 ]
 django-extensions = [
