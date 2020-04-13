@@ -1642,17 +1642,17 @@ pytest = ">=3.1.0"
 
 [[package]]
 category = "dev"
-description = "Thin-wrapper around the mock package for easier use with py.test"
+description = "Thin-wrapper around the mock package for easier use with pytest"
 name = "pytest-mock"
 optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-version = "1.13.0"
+python-versions = ">=3.5"
+version = "3.0.0"
 
 [package.dependencies]
 pytest = ">=2.7"
 
 [package.extras]
-dev = ["pre-commit", "tox"]
+dev = ["pre-commit", "tox", "pytest-asyncio"]
 
 [[package]]
 category = "dev"
@@ -2180,7 +2180,7 @@ idna = ">=2.0"
 multidict = ">=4.0"
 
 [metadata]
-content-hash = "8d98a9bc230305ff4c811665fd82ad3fe2c56ecbd31c6a52f00a9569a9e199b0"
+content-hash = "a60a02368ec1e51ee2c724b8ad8c8ff2f42cd428449fb04f0b44fd954308c68f"
 python-versions = "~3.8"
 
 [metadata.files]
@@ -2388,6 +2388,7 @@ django-debug-toolbar = [
     {file = "django_debug_toolbar-2.2-py3-none-any.whl", hash = "sha256:ff94725e7aae74b133d0599b9bf89bd4eb8f5d2c964106e61d11750228c8774c"},
 ]
 django-debug-toolbar-request-history = [
+    {file = "django-debug-toolbar-request-history-0.1.1.tar.gz", hash = "sha256:b4e53f1da523d6fe7d2a9cb1b0cf4ce7c83c8a02fad56555ec041911371e62cd"},
     {file = "django_debug_toolbar_request_history-0.1.1-py2.py3-none-any.whl", hash = "sha256:79013b50ba59d93d998b6f168ca4325eb5be3a9b859d48fb14aae80819f3a734"},
 ]
 django-extensions = [
@@ -2940,8 +2941,8 @@ pytest-forked = [
     {file = "pytest_forked-1.1.3-py2.py3-none-any.whl", hash = "sha256:1ae25dba8ee2e56fb47311c9638f9e58552691da87e82d25b0ce0e4bf52b7d87"},
 ]
 pytest-mock = [
-    {file = "pytest-mock-1.13.0.tar.gz", hash = "sha256:e24a911ec96773022ebcc7030059b57cd3480b56d4f5d19b7c370ec635e6aed5"},
-    {file = "pytest_mock-1.13.0-py2.py3-none-any.whl", hash = "sha256:67e414b3caef7bff6fc6bd83b22b5bc39147e4493f483c2679bc9d4dc485a94d"},
+    {file = "pytest-mock-3.0.0.tar.gz", hash = "sha256:a4494016753a30231f8519bfd160242a0f3c8fb82ca36e7b6f82a7fb602ac6b8"},
+    {file = "pytest_mock-3.0.0-py2.py3-none-any.whl", hash = "sha256:98e02534f170e4f37d7e1abdfc5973fd4207aa609582291717f643764e71c925"},
 ]
 pytest-vcr = [
     {file = "pytest-vcr-1.0.2.tar.gz", hash = "sha256:23ee51b75abbcc43d926272773aae4f39f93aceb75ed56852d0bf618f92e1896"},
